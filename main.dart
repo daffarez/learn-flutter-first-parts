@@ -1,4 +1,4 @@
-import 'dart:developer';
+// import 'dart:developer';
 
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
@@ -35,7 +35,7 @@ class _StartupNamerState extends State<StartupNamer> {
   final _biggerFont = const TextStyle(fontSize: 18);
   @override
   Widget build(BuildContext context) {
-    log('data: $_saved');
+//     log('data: $_saved');
 
     void _pushSaved() {
       Navigator.of(context).push(MaterialPageRoute<void>(
